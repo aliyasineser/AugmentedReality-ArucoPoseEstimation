@@ -1,23 +1,23 @@
 # AugmentedReality-ArucoPoseEstimation
-A project based on Python and OpenCV which detects and recognizes aruco marker detects it and does its pose estimation with frame rate handling
+A project based on Python and OpenCV which detects and recognizes aruco marker detects it and does its pose estimation with frame rate handling.
 
-<p>
-  <img src="http://www.sahilkhosla.co.in/arucodetection/result.jpg" align="center">
-  </p>
-  
+# Requirements
+- Python
+- Printed marker, you can print from [here](data/test_marker.jpg)
+
 # Installation
- Install openCV
+```bash
+pip install numpy opencv-python opencv-contrib-python
+```
+# Programs
+- aruco_Detection.py : Basic marker detection from camera. 
+- aruco_Detection.py : Find marker and estimate the pose. Needs calibration file as xml file. You can change the name in the code.
 
- Install numpy library
+# Execute
+python program_name.py
  
- Install Aruco Library
-
-Make sure you have python installed in ubuntu system
-
-Download the zip folder open the aruco_poseEstimation folder and open a terminal in it and then type the command 
-
- python aruco_poseEstimation.py
+- Note : The other two files are supportive files. if you want only aruco code detection use aruco_detection.py and if you want only the frame rate handling use Handling_Framerate.py
  
- <h6>Note : The other two files are supportive files. if you want only aruco code detection use aruco_detection.py and if you want only the frame rate handling use Handling_Framerate.py</h6>
- 
- For more projects visit <a href="http://www.sahilkhosla.co.in">Sahil khosla</a>
+For more projects visit:
+
+[Sahil khosla](http://www.sahilkhosla.co.in)
